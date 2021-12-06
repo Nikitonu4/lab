@@ -1,0 +1,38 @@
+#canvas {
+	width: 700px;
+	height: 500px;
+	border: 3px solid orange;
+	margin: 40px;
+}
+#s1{
+	float: left;	
+}
+#s2{
+	float: right;	
+}
+
+div{
+	margin-bottom: 10px;
+}
+
+input{
+	margin-left: 10px;
+	border: 1px solid #635f5f;
+	border-radius: 10px;
+	padding: 10px;
+}
+b{
+	font-size: 30px;
+}
+
+.N{
+	border: 1px solid orange;
+	padding: 10px;
+	width: 400px;
+}
+
+.img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

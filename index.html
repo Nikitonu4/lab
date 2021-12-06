@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  <h2 align = 'center'> Батогов Никита ИВТ-41БО </h2>
+  <title>Численное решение систем ОДУ </title>
+  <h1 align = 'center'> Численное решение систем ОДУ </h1>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer ></script>
+  </head>
+  <body> 
+    <div class="img">
+      <img src="./func.png" alt="" width="300">
+    </div>
+    <p id=s2>
+      <canvas id="canvas" width="700" height="500" style="background-color:#FFFFFF">Извините, тег Canvas недоступен!</canvas>
+    </p>
+    <p id=s1> 
+      <div> Введите параметры: </div> 
+      <div> <b> α: </b> <input type="text"  size="40"id="alfa" autocomplete="off" value="3" required></div>
+      <div> <b> β: </b> <input type="text"  size="40"id="betta" autocomplete="off" value="-2" required></div>
+      <div> <b> p: </b> <input type="text"  size="40"id="ro" autocomplete="off" value="2" required></div>
+      <div> <b> δ: </b> <input type="text"  size="40" id="delta" autocomplete="off" value="-8" required></div>
+      <div> <b> φ: </b> <input type="text"  size="40"id="fi" autocomplete="off" value="2" required></div>
+      <div class="N"> <b> N = </b>
+        <input type="text" size="40" id = "N" autocomplete="off" value="300" required>
+      </div>
+      <div> По горизонтали:</div> 
+      <div> <b> A = </b> 
+        <input type="text" size="40" id = "A" autocomplete="off" value="-20" required>
+      </div>
+      <div> <b> B = </b>
+        <input type="text" size="40" id = "B" autocomplete="off" value="20" required>
+      </div>
+      <div>  По вертикали:</div>
+      <div> <b> C = </b>
+        <input type="text" size="40" id = "C" autocomplete="off" value="-20" required>
+      </div>
+    </div>
+      <div> <b> D = </b>
+        <input type="text" size="40" id = "D" autocomplete="off" value="2" required>
+      </div>
+      <div> τ:
+        <select id="tay" >
+          <option>1</option>
+          <option>0.1</option>
+          <option selected>0.01</option>
+          <option>0.001</option>
+          <option>0.0001</option>
+        </select>
+      </div>
+      <div id = "x0"> </div>
+      
+      <div id = "y0"> </div>
+    </p>
+
+  </body>
+</html> 
